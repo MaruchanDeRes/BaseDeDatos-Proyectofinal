@@ -1,5 +1,5 @@
 -- Se crea un procedimiento almacenado llamado sp_GetClassDetails sin parámetros de entrada
-CREATE PROCEDURE sp_GetClassDetails
+CREATE PROCEDURE GetClassDetails
 AS
 BEGIN
     -- Inicio de la instrucción SELECT para definir los campos que se obtendrán en la consulta
@@ -18,4 +18,4 @@ BEGIN
 END;
 GO
 -- Ejecuta el procedimiento almacenado creado para mostrar los detalles de las clases
-EXEC sp_GetClassDetails
+EXEC GetClassDetails
